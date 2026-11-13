@@ -59,13 +59,13 @@ export const CreativeExplorations: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-24">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#141414] border border-[#1F1F1F] text-xs font-mono tracking-widest uppercase text-[#89AACC] mb-6">
-            <span>CREATIVE EXPLORATIONS</span>
+            <span>SYSTEMS ARCHITECTURE LAB</span>
           </div>
           <h2 className="font-editorial text-6xl md:text-8xl text-[#F5F5F5] mb-6 tracking-tight">
-            Beyond the <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#89AACC] to-[#4E85BF]">code.</span>
+            Beyond the <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#89AACC] to-[#4E85BF]">test script.</span>
           </h2>
           <p className="text-base md:text-lg text-[#878787] font-light leading-relaxed">
-            An ongoing exploration of creativity, technology, and imagination.
+            Deconstructing real production state machines, containerized test grids, and concurrency architecture.
           </p>
         </div>
 
@@ -182,6 +182,11 @@ export const CreativeExplorations: React.FC = () => {
                   <h3 className="font-editorial text-3xl text-[#F5F5F5]">
                     {activeItem.title}
                   </h3>
+                  {activeItem.description && (
+                    <p className="text-sm text-[#878787] font-light mt-2 max-w-2xl">
+                      {activeItem.description}
+                    </p>
+                  )}
                 </div>
                 <span className="text-xs font-mono text-[#878787]">
                   Artifact // 2026

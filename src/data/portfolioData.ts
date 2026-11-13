@@ -1,6 +1,9 @@
 /**
  * Muralidhar Yerram - Master Portfolio Data
- * Calibrated for Lead SDET & Full-Stack Systems Architect
+ * Calibrated with exact real-world experience & technical accuracy:
+ * • Total Enterprise QA & SDET: 7+ Years (Selenium, SpecFlow, C#, Java, Cucumber)
+ * • API Automation: 2 Years (RestAssured, Postman)
+ * • Playwright Test Architecture: 1 Year (Wipro Limited)
  */
 
 export interface Project {
@@ -42,6 +45,7 @@ export interface ExplorationItem {
   image: string;
   aspect: string;
   rotation?: number;
+  description?: string;
 }
 
 export const portfolioConfig = {
@@ -49,24 +53,24 @@ export const portfolioConfig = {
     name: "Muralidhar Yerram",
     firstName: "Muralidhar",
     lastName: "Yerram.",
-    title: "Lead SDET & Full-Stack Systems Architect",
+    title: "Senior QA Automation Engineer & SDET",
     email: "murali.yerram@gmail.com",
     phone: "+91-7013098326",
     location: "Hyderabad, India (Open to Remote / Hybrid)",
     noticePeriod: "Immediate Joiner (0 Days Notice)",
     roles: [
-      "Lead SDET",
-      "Automation Architect",
-      "Systems Engineer",
-      "Fullstack Builder"
+      "Senior QA Engineer",
+      "Automation Test Lead",
+      "SDET",
+      "Systems Builder"
     ],
-    eyebrow: "7+ YRS ENTERPRISE SDET • IMMEDIATE JOINER",
+    eyebrow: "7+ YRS ENTERPRISE QA • SELENIUM, SPECFLOW & PLAYWRIGHT • IMMEDIATE JOINER",
     heroDescription:
-      "Senior QA Automation Engineer and Lead SDET with 7+ years of enterprise experience architecting automated test frameworks, driving CI/CD quality gates, and engineering production full-stack systems. Proven track record at Wipro, Bizmatics, and Infosys.",
+      "Senior QA Automation Engineer and SDET with 7+ years of enterprise experience building robust test frameworks (Selenium WebDriver, SpecFlow BDD, C#, Java), with 2 years of targeted API testing (RestAssured/Postman) and 1 year of modern Playwright test architecture. Ex-Wipro, Bizmatics, Infosys.",
     aboutIntro: "Deep testing rigor meets production engineering velocity.",
     aboutBio: [
-      "Throughout my career across Wipro, Bizmatics, and Infosys, I have specialized in building robust test automation architectures using C#/.NET, Java, Selenium WebDriver, SpecFlow (BDD), Playwright, and Postman API automation integrated with TeamCity and Azure DevOps.",
-      "What makes my engineering approach unique: beyond enterprise QA automation, I design and ship full-scale production products. I have architected 3-sided mobile ride-hailing marketplaces (Flutter + Razorpay), multi-portal industrial logistics ecosystems (PostgreSQL + Node.js), and secure US tax compliance portals (React + Supabase). Because I understand how systems are engineered, I know exactly how to break, automate, and bulletproof them."
+      "Throughout my 7+ years across Wipro, Bizmatics, and Infosys, I have specialized in building robust test automation architectures using C#/.NET, Java, Selenium WebDriver, SpecFlow (BDD), and Cucumber, integrated with TeamCity CI/CD pipelines.",
+      "Over the last 2 years, I have actively expanded into RESTful API automation (RestAssured & Postman) validating schema contracts and JWT auth lifecycles, and spent the past 1 year architecting modern parallel Playwright suites at Wipro. Beyond QA, I engineer full-scale production products (JuszGo, Vikisha, US Tax Portal) so I understand systems from the database layer to the UI."
     ],
     videoUrl:
       "https://stream.mux.com/Aa02T7oM1wH5Mk5EEVDYhbZ1ChcdhRsS2m1NYyx4Ua1g.m3u8",
@@ -94,12 +98,12 @@ export const portfolioConfig = {
     },
     {
       id: "playwright-teamcity",
-      title: "Enterprise Playwright Suite",
-      subtitle: "Distributed CI/CD Quality Gates",
+      title: "Playwright & TeamCity Suite",
+      subtitle: "1 Year Modern Framework Architecture (Wipro)",
       category: "Automation Architecture • Wipro Limited",
       description:
-        "Architected enterprise-grade automation frameworks integrated into TeamCity CI/CD pipelines, triggering parallelized containerized regression runs on build deployments and reducing release cycles by 40%.",
-      technologies: ["Playwright", "TypeScript", "C# / .NET", "TeamCity", "Docker"],
+        "Engineered modern parallel test automation using Playwright and TypeScript, integrated into TeamCity CI/CD pipelines to trigger automated containerized regression suites upon build deployment.",
+      technologies: ["Playwright (1 Yr)", "TypeScript", "C# / .NET", "TeamCity", "Docker"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
       featured: true,
       gridSpan: "col-span-12 lg:col-span-5",
@@ -122,16 +126,16 @@ export const portfolioConfig = {
     },
     {
       id: "locust-performance",
-      title: "Locust 1,000 VU Engine",
-      subtitle: "Concurrency & Performance Stress Suite",
+      title: "Locust Concurrency Suite",
+      subtitle: "Performance Testing & SLA Benchmarking",
       category: "Performance Engineering • SLA Benchmarking",
       description:
-        "Distributed headless load-testing suite simulating 1,000 concurrent Virtual Users across multi-tier APIs, isolating connection pool exhaustion, memory leaks, and verifying sub-40ms P99 latency SLAs.",
+        "Headless concurrency test suites simulating high-concurrency API traffic spikes, monitoring connection pool exhaustion, database deadlocks, and verifying sub-40ms P99 latency SLAs.",
       technologies: ["Python", "Locust", "REST APIs", "Docker", "SLA Benchmarking"],
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
       featured: true,
       gridSpan: "col-span-12 lg:col-span-7",
-      metrics: ["1,000 Virtual Users", "< 40ms P99 Latency", "Zero Race Conditions"],
+      metrics: ["1,000 Virtual Users", "< 40ms P99 Latency", "Zero Deadlocks"],
       link: "https://github.com/murali007"
     }
   ] as Project[],
@@ -139,38 +143,38 @@ export const portfolioConfig = {
   services: [
     {
       id: "test-arch",
-      title: "Test Automation Architecture",
-      category: "Enterprise SDET",
+      title: "Selenium & SpecFlow Automation",
+      category: "7+ Years Enterprise Core",
       description:
-        "Designing scalable, zero-flakiness automated test frameworks from scratch using Playwright, Selenium WebDriver, SpecFlow (BDD), and Page Object Model.",
-      technologies: ["Playwright", "Selenium", "SpecFlow (BDD)", "Cucumber", "Java", "C#"],
+        "Architecting enterprise-grade automated test frameworks using Selenium WebDriver, SpecFlow (BDD), Cucumber, C#/.NET, and Java across complex enterprise web apps.",
+      technologies: ["Selenium (7 Yrs)", "SpecFlow BDD (7 Yrs)", "Cucumber", "Java", "C# / .NET"],
       iconName: "Code"
     },
     {
       id: "api-testing",
-      title: "API & Microservices Automation",
-      category: "Contract & Security QA",
+      title: "RESTful API Automation",
+      category: "2 Years Targeted Focus",
       description:
-        "Automated RESTful API test suites in RestAssured and Postman, validating dynamic JWT authentication, JSON schema compliance, and payload boundary integrity.",
-      technologies: ["RestAssured", "Postman", "OAuth 2.0 / JWT", "JSON Schema", "Webhooks"],
+        "Automated API contract testing with RestAssured and Postman, validating dynamic JWT token lifecycles, JSON schema models, and microservice payload resilience.",
+      technologies: ["RestAssured (2 Yrs)", "Postman", "OAuth 2.0 / JWT", "JSON Schema"],
       iconName: "Cpu"
     },
     {
-      id: "cicd-devops",
-      title: "CI/CD & Quality Gates",
-      category: "DevOps & Pipeline Automation",
+      id: "playwright-arch",
+      title: "Modern Playwright SDET",
+      category: "1 Year Focused Architecture",
       description:
-        "Integrating automated regression suites into TeamCity, Azure DevOps, and GitHub Actions with Dockerized parallel execution and Slack/Jira failure alerts.",
-      technologies: ["TeamCity", "Azure DevOps", "Docker", "GitHub Actions", "Jira"],
+        "Building fast, reliable Playwright automation suites in TypeScript/C# with native trace viewers, auto-waiting locators, and containerized headless execution.",
+      technologies: ["Playwright (1 Yr)", "TypeScript", "Docker", "Trace Viewer", "Auto-Waiting"],
       iconName: "Layout"
     },
     {
-      id: "fullstack-systems",
-      title: "Full-Stack Production Engineering",
-      category: "Systems & Database Architecture",
+      id: "cicd-devops",
+      title: "CI/CD & Pipeline Quality Gates",
+      category: "TeamCity & Azure DevOps",
       description:
-        "Engineering distributed SaaS backends, mobile applications, and relational schemas with PostgreSQL, Node.js, and Flutter for high-velocity startups.",
-      technologies: ["PostgreSQL", "Flutter / Dart", "Node.js", "Supabase", "Razorpay"],
+        "Integrating automated regression suites into TeamCity, Azure DevOps, and GitHub Actions with Dockerized parallel execution and Slack/Jira failure alerts.",
+      technologies: ["TeamCity", "Azure DevOps", "Docker", "GitHub Actions", "Jira"],
       iconName: "Gamepad2"
     }
   ] as Service[],
@@ -178,21 +182,21 @@ export const portfolioConfig = {
   journal: [
     {
       id: "j1",
-      title: "Architecting zero-flakiness Playwright CI/CD quality gates.",
+      title: "Transitioning from Selenium to Playwright: A practical 1-year retrospective.",
       category: "Test Automation",
       readTime: "5 min read",
-      date: "Enterprise SDET",
+      date: "SDET Insights",
       summary:
-        "How to eliminate asynchronous race conditions, auto-heal dynamic DOM locators, and parallelize test runs in Dockerized CI/CD pipelines."
+        "Comparing auto-waiting mechanisms, trace debugging, and parallel sharding between traditional Selenium grids and modern Playwright test suites."
     },
     {
       id: "j2",
-      title: "Simulating 1,000 concurrent Virtual Users with Locust.",
-      category: "Performance Engineering",
-      readTime: "6 min read",
-      date: "Performance QA",
+      title: "Two years of API automation: Schema validation vs functional contracts.",
+      category: "API Testing",
+      readTime: "5 min read",
+      date: "Contract Testing",
       summary:
-        "A practical framework for benchmarking microservice SLAs, uncovering database connection starvation, and guaranteeing sub-40ms P99 latency."
+        "How RestAssured and Postman pre-request scripts streamline dynamic auth tokens, environment variables, and automated schema checks."
     },
     {
       id: "j3",
@@ -217,56 +221,62 @@ export const portfolioConfig = {
   explorations: [
     {
       id: "exp1",
-      title: "Concurrency Load Stress Model",
-      medium: "Locust Architecture",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-      aspect: "aspect-[3/4]",
-      rotation: -1.5
+      title: "JuszGo Real-Time Geospatial Cluster",
+      medium: "Mobility Architecture • Flutter & H3",
+      image: "./lab/juszgo-arch.svg",
+      aspect: "aspect-[4/3]",
+      rotation: -1.0,
+      description: "Real-time driver assignment state machine with geospatial hexagonal indexing and Razorpay payment webhooks."
     },
     {
       id: "exp2",
-      title: "JuszGo Real-Time Geospatial Cluster",
-      medium: "Flutter & H3 Indexing",
-      image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80",
-      aspect: "aspect-[4/5]",
-      rotation: 1.8
+      title: "Locust 1,000 VU Concurrency Matrix",
+      medium: "Performance QA • Python & SLA",
+      image: "./lab/locust-arch.svg",
+      aspect: "aspect-[4/3]",
+      rotation: 1.5,
+      description: "Distributed load testing with virtual user ramping, monitoring connection pool saturation and sub-40ms P99 latency."
     },
     {
       id: "exp3",
       title: "Containerized Test Grid Topology",
-      medium: "Docker & TeamCity",
-      image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
-      aspect: "aspect-[1/1]",
-      rotation: -2.0
+      medium: "CI/CD Automation • Docker & TeamCity",
+      image: "./lab/docker-grid.svg",
+      aspect: "aspect-[4/3]",
+      rotation: -1.5,
+      description: "Parallel headless browser clusters running cross-browser regression suites with zero locator flakiness."
     },
     {
       id: "exp4",
       title: "5-Portal Logistics State Machine",
-      medium: "PostgreSQL & Node.js",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
+      medium: "Enterprise SaaS • PostgreSQL",
+      image: "./lab/vikisha-flow.svg",
       aspect: "aspect-[4/3]",
-      rotation: 1.2
+      rotation: 1.0,
+      description: "End-to-end order lifecycle tracking from pickup dispatch to thermal barcode tagging and workshop inspection."
     },
     {
       id: "exp5",
-      title: "Cryptographic Webhook Signature Verifier",
-      medium: "Razorpay / Security QA",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-      aspect: "aspect-[3/4]",
-      rotation: -1.0
+      title: "RestAssured Contract & Schema Suite",
+      medium: "API Testing • Java & JWT",
+      image: "./lab/api-contract.svg",
+      aspect: "aspect-[4/3]",
+      rotation: -1.0,
+      description: "Automated JSON schema validation, dynamic authentication tokens, and negative boundary payload verification."
     },
     {
       id: "exp6",
-      title: "IRS Pub 4557 AES-256-GCM Gateway",
-      medium: "Tax Compliance Security",
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
-      aspect: "aspect-[4/5]",
-      rotation: 2.2
+      title: "IRS Pub 4557 AES-256-GCM Vault",
+      medium: "Security Engineering • Supabase RLS",
+      image: "./lab/irs-security.svg",
+      aspect: "aspect-[4/3]",
+      rotation: 1.8,
+      description: "Client-side PII data sanitization and AES-GCM envelope encryption for US tax compliance."
     }
   ] as ExplorationItem[],
 
   statistics: [
-    { value: 7, suffix: "+ Yrs", label: "Enterprise Experience", description: "High-stakes QA automation track record across Wipro, Bizmatics, and Infosys." },
+    { value: 7, suffix: "+ Yrs", label: "Enterprise QA Experience", description: "Proven core automation foundation across Wipro, Bizmatics, and Infosys." },
     { value: 85, suffix: "%+", label: "Automated Test Coverage", description: "Across critical business paths, eliminating production defect escapes." },
     { value: 0, suffix: " Days", label: "Immediate Joiner", description: "Available to onboard immediately with zero notice period delay." }
   ],
