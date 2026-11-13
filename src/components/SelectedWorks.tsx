@@ -12,13 +12,13 @@ export const SelectedWorks: React.FC = () => {
         {/* Section Header */}
         <div className="mb-20">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#141414] border border-[#1F1F1F] text-xs font-mono tracking-widest uppercase text-[#89AACC] mb-6">
-            <span>SELECTED WORK</span>
+            <span>ENGINEERING PORTFOLIO</span>
           </div>
           <h2 className="font-editorial text-5xl md:text-7xl lg:text-8xl text-[#F5F5F5] mb-6 tracking-tight">
-            Turning ideas into <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#89AACC] to-[#4E85BF]">digital reality.</span>
+            Resilient test frameworks & <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#89AACC] to-[#4E85BF]">zero-defect releases.</span>
           </h2>
           <p className="max-w-2xl text-base md:text-lg text-[#878787] font-light leading-relaxed">
-            A collection of digital experiences, applications, and creative experiments built with purpose.
+            Battle-tested automation architectures, high-concurrency performance suites, and enterprise full-stack systems designed for 99.9% release confidence.
           </p>
         </div>
 

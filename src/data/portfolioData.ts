@@ -90,7 +90,7 @@ export const portfolioConfig = {
       description:
         "Enterprise-scale ride-hailing marketplace engineered with synchronized mobile apps for Passengers, Captains, and Admins. Integrated Razorpay cryptographic signature verification and automated real-time dispatch state-machine testing.",
       technologies: ["Flutter", "Dart", "Firebase", "Razorpay", ".NET", "PostgreSQL"],
-      image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80",
+      image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1200&q=80",
       featured: true,
       gridSpan: "col-span-12 lg:col-span-7",
       metrics: ["100k+ Concurrency", "Sub-2s Driver Match", "99.9% Uptime"],
